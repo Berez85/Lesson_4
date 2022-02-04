@@ -1,0 +1,112 @@
+/* @import "null.css"; */
+
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+@font-face {
+	font-family: "SFProDisplay-Light";
+	src: url("../fonts/SFProDisplay-Light.woff2") format("woff2"), url("../fonts/SFProDisplay-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "SFProDisplay-Bold";
+	src: url("../fonts/SFProDisplay-Bold.woff2") format("woff2"), url("../fonts/SFProDisplay-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+div {
+	text-align: justify;
+	color: darkmagenta;
+}
+.text {
+	color: rgb(30, 33, 175);
+	font-family: "SFProDisplay-Light";
+}
+.section {
+	text-decoration: underline;
+	color: dodgerblue;
+}
+h1 {
+	text-shadow: 1px 1px 4px rgb(5, 5, 5);
+	color: darkgreen;
+	font-family: "Supermercado One", cursive;
+}
+.paragraph {
+	text-transform: uppercase;
+	color: gold;
+	font-family: Comforter;
+}
+h2 {
+	text-shadow: 2px 2px 5px rgb(139, 32, 0);
+	color: blue;
+	font-family: "Roboto Slab";
+	font-weight: 700;
+}
+.text1 {
+	line-height: 2.25;
+	color: peru;
+}
+.text2 {
+	letter-spacing: 5px;
+	color: pink;
+}
+.link {
+	font-size: 40px;
+	color: rgb(230, 17, 17);
+	font-family: "SFProDisplay-Bold";
+}
+
+p {
+	color: darkblue;
+	font-family: "Roboto Slab";
+	font-weight: 300;
+}
+ul {
+	color: rgb(125, 180, 70);
+	font-family: "Roboto Slab";
+	font-weight: 500;
+}
+a {
+	color: rgb(14, 55, 238);
+}
+
+.heading {
+	font-size: 40px;
+	font-family: "lato";
+	font-weight: 900;
+	color: black;
+}
+.list {
+	font-family: "lato";
+	font-weight: 400;
+	color: black;
+	text-shadow: 1px 1px 5px rgb(37, 37, 37);
+}
+.text3 {
+	font-size: 20px;
+	font-family: "lato";
+	font-weight: 700;
+	color: black;
+	text-shadow: 0.1px 1px 3px rgb(37, 37, 37);
+}
+.text4 {
+	font-family: "lato";
+	font-weight: 400;
+	color: black;
+	text-shadow: 0.1px 1px 3px rgb(37, 37, 37);
+}
+.text5 {
+	font-size: 20px;
+	font-family: "lato";
+	font-weight: 700;
+	color: black;
+}
